@@ -1,9 +1,8 @@
 ---
-title: Perfil personal de Pedro Vicente Seoane Prado
+title: Perfil mpersonal
 author: 
 - name: Pedro Vicente Seoane Prado
-  afiliation: 39468291S
-keywords: [git,perfil]
+  afiliation: Persona física 39468291S
 ---
 
 # Informático especializado en administraicón y telecomunicaciones
@@ -20,9 +19,9 @@ Tengo dos ramas principales, la laboral y la personal.
 
 ### Profesional
 
-* Desarrollo de apps de IA para catalogado.
+* Desarrollo de apps de IA para catalogado, por ejemplo tenemos una app con ABANCA para tales fines.
 * Desarrollo de interfaces para empresas.
-* Implementación de seguridad y auditorias.
+* Implementación de seguridad y auditorias, soporte y recuperación de datos.
 * Scripteado y gestión remota, una llamada y el problema arreglado.
 * Soporte y mantenimiento de sistemas NT y GNU/Linux.
 
@@ -35,3 +34,7 @@ Estoy involucrado en un proyecto de Teledocencia, en el que hago análisis de da
 * Los análisis deben ser predecidos con fiabilidad, modelos exactos y con referencias.
 * Las webs de entrega deben ser amigables, estamos estudiando maneras con Pandoc de vincular Word + MD en Moodle con firma digital.
 * Mejora en general del CMS online para alumnado.
+
+# Contacto
+
+Puedes contactar conmigo a través de mi email: <info@pedroseoaneprado.es>, o a través de mi empresa <informatica@clubmaritimodevigo.org.es>.
