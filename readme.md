@@ -1,8 +1,9 @@
 ---
-title: Perfil mpersonal
+title: Perfil
 author: 
 - name: Pedro Vicente Seoane Prado
   afiliation: Persona física 39468291S
+  afiliation: Club Marítimo de Vigo G27750835
 ---
 
 # Informático especializado en administraicón y telecomunicaciones
