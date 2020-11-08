@@ -25,7 +25,7 @@ Tengo dos ramas principales, la laboral y la personal.
 * Scripteado y gestión remota, una llamada y el problema arreglado.
 * Soporte y mantenimiento de sistemas NT y GNU/Linux.
 
-> No trabajo con macOS ni su ecosistema.
+> No trabajo con macOS ni su ecosistema, aunque sé usarlo.
 
 ### Personal
 
