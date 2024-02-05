@@ -25,7 +25,6 @@ jobs:
           plugin_wakatime_limit: 128                                  # Show 4 entries per graph
           plugin_wakatime_url: https://wakapi.foxtrot-nas.synology.me           # Wakatime url endpoint
           plugin_wakatime_user: peseoane                         # User
-          base: ""
           plugin_followup: yes
           plugin_followup_indepth: yes
           plugin_habits: yes
