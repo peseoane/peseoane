@@ -1,11 +1,17 @@
 name: Metrics
+
 on:
-  # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  # Schedule updates every 6 hours
+  schedule:
+    - cron: "0 */12 * * *"
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
-  push: {branches: ["master", "main"]}
+  push:
+    branches:
+      - "master"
+      - "main"
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -18,20 +24,31 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}      # Required
-          plugin_wakatime_days: 365                                   # Display last week stats
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os, os-graphs, editor-graphs # Display time and projects sections, along with projects graphs
-          plugin_wakatime_limit: 128                                  # Show 4 entries per graph
-          plugin_wakatime_url: https://wakapi.foxtrot-nas.synology.me           # Wakatime url endpoint
-          plugin_wakatime_user: peseoane                         # User
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_days: 365
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os, os-graphs, editor-graphs
+          plugin_wakatime_limit: 128
+          plugin_wakatime_url: https://wakapi.foxtrot-nas.synology.me
+          plugin_wakatime_user: peseoane
+          
           plugin_followup: yes
           plugin_followup_indepth: yes
+          
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: no
+          
           config_timezone: Europe/Madrid
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          commits_authoring: Pedro Seoane, peseoane, peseoane@users.noreply.github.com
+          plugin_calendar: yes
+
+          base: ""
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
+        
