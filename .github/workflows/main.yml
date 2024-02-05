@@ -16,6 +16,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          template: reposiroty
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}      # Required
@@ -24,3 +25,15 @@ jobs:
           plugin_wakatime_limit: 128                                  # Show 4 entries per graph
           plugin_wakatime_url: https://wakapi.foxtrot-nas.synology.me           # Wakatime url endpoint
           plugin_wakatime_user: peseoane                         # User
+          base: ""
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          config_timezone: Europe/Madrid
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
