@@ -44,11 +44,6 @@ jobs:
           
           plugin_languages: yes
           plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 60
           commits_authoring: Pedro Seoane, peseoane, peseoane@users.noreply.github.com
-          plugin_calendar: yes
-
-          base: ""
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: icons
         
