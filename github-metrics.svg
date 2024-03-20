@@ -395,20 +395,20 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 1.13bb of code in 105924 edited files across 721 commits</small>
+                <small>estimation from 1.13bb of code in 106070 edited files across 729 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="378.1952447679563" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="378.1952447679563" y="0" width="32.489937160994835" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="410.6851819289511" y="0" width="16.35323075937931" height="8" fill="#41b883"/>
-                    <rect mask="url(#languages-bar)" x="427.0384126883305" y="0" width="10.05454550618617" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="437.09295819451665" y="0" width="8.338860180954233" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="445.4318183754709" y="0" width="7.562555626733676" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="452.9943740022046" y="0" width="6.194877086058995" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="459.18925108826363" y="0" width="0.810748911736463" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="370.5748003506593" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="370.5748003506593" y="0" width="31.835281229483208" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="402.4100815801425" y="0" width="17.09023150847996" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="419.5003130886224" y="0" width="16.02372136504109" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="435.52403445366355" y="0" width="10.201325471751817" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="445.7253599254154" y="0" width="7.410173925473522" height="8" fill="#563d7c"/>
+                    <rect mask="url(#languages-bar)" x="453.1355338508889" y="0" width="6.070053421141514" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.2055872720304" y="0" width="0.7944127279696297" height="8" fill="#00ADD8"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -425,6 +425,12 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#4F5D95" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        PHP
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                             <path fill="#41b883" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         Vue
@@ -434,12 +440,6 @@
                             <path fill="#e34c26" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         HTML
-                    </div>
-                    <div class="field center no-wrap language">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#4F5D95" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                        </svg>
-                        PHP
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -475,12 +475,12 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 43 commits)</small>
+                    <small class="h-details">(computed from last 39 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
                         <li>Uses spaces for indentation</li>
-                        <li>Has approximately 69.5 characters per line of code written</li>
+                        <li>Has approximately 70.9 characters per line of code written</li>
                         <li>Mostly pushes code around 13:00</li>
                         <li>Mostly active on Sunday</li>
                     </ul>
@@ -2504,7 +2504,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 20 Mar 2024, 02:16:45 (timezone Europe/Madrid) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 20 Mar 2024, 13:32:43 (timezone Europe/Madrid) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
