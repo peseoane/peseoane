@@ -1,5 +1,7 @@
-<div class="github-card" data-user="lepture" data-repo="github-cards"></div>
-<script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
+# Last proyect
+Galaria EPSS SA - Software gestión de informática, incidencias intercentros (hospitales).
+[peseoane/galariaXes](https://github.com/peseoane/galariaXes)
+![Último proyecto](https://github.com/peseoane/galariaXes/blob/main/src/main/resources/static/img/portadaLink.jpg?raw=true)
 
 ![](https://wakapi.foxtrot-nas.synology.me/api/badge/peseoane/interval:today?label=month)
 
