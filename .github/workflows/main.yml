@@ -24,11 +24,11 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_wakatime: yes
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_token: ${{ secrets.WAKAPI_TOKEN }}
           plugin_wakatime_days: 365
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os, os-graphs, editor-graphs
           plugin_wakatime_limit: 128
-          plugin_wakatime_url: https://wakapi.foxtrot-nas.synology.me
+          plugin_wakatime_url: https://wakapi.foxtrot-nas.synology.me/api
           plugin_wakatime_user: peseoane
           
           plugin_followup: yes
