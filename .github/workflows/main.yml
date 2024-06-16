@@ -46,7 +46,7 @@ jobs:
           plugin_languages_recent_days: 90
           plugin_languages_recent_categories: data, markup, programming, prose
           plugin_languages_indepth: false
-          plugin_languages_ignored: javascript
+          plugin_languages_ignored: 
           plugin_languages_analysis_timeout: 60
           commits_authoring: Pedro Seoane, peseoane, peseoane@users.noreply.github.com
         
