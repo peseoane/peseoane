@@ -9,6 +9,6 @@ Galaria EPSS SA - Software gestión de informática, incidencias intercentros (h
 
 ![](https://wakapi.foxtrot-nas.synology.me/api/badge/peseoane/interval:today?label=month)
 ![](https://github.com/peseoane/peseoane/blob/master/renders/github-metrics.svg)
-![](https://github-readme-stats.vercel.app/api/wakatime?username=peseoane&api_domain=wakapi.foxtrot-nas.synology.me&custom_title=peseoane%20Wakapi%Stats%20Stats&layout=compact&theme=holi)
+
 
 ![Metrics](/github-metrics.svg)
