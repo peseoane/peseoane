@@ -25,9 +25,9 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKAPI_TOKEN }}
-          plugin_wakatime_days: 180
+          plugin_wakatime_days: 360
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os, os-graphs, editor-graphs
-          plugin_wakatime_limit: 30
+          plugin_wakatime_limit: 180
           plugin_wakatime_url: https://wakapi.foxtrot-nas.synology.me/
           plugin_wakatime_user: peseoane
           
@@ -45,8 +45,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_recent_days: 90
           plugin_languages_recent_categories: data, markup, programming, prose
-          plugin_languages_indepth: false
-          plugin_languages_ignored: 
-          plugin_languages_analysis_timeout: 60
+          plugin_languages_indepth: true
+          plugin_languages_analysis_timeout: 180
           commits_authoring: Pedro Seoane, peseoane, peseoane@users.noreply.github.com
         
