@@ -7,7 +7,7 @@ Galaria EPSS SA - Software gestión de informática, incidencias intercentros (h
 
 ## Stats
 
-![](https://wakapi.foxtrot-nas.synology.me/api/badge/peseoane/interval:today?label=month)
+![](https://wakapi.foxtrot-nas.synology.me/api/badge/peseoane/interval:month?label=month)
 ![](https://github.com/peseoane/peseoane/blob/master/renders/github-metrics.svg)
 
 
